@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationFactoryMethod",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportBuilder", "Creational\Builder\ReportBuilder\ReportBuilder.csproj", "{9E019932-DB74-787A-2F66-3F56157348DD}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Prototype", "Prototype", "{54CE9376-D33C-4259-A62A-114BB8AC4A29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContratosPrototype", "Creational\Prototype\ContratosPrototype\ContratosPrototype.csproj", "{C530CC02-81D4-4674-A296-18402256AFC7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,10 @@ Global
 		{9E019932-DB74-787A-2F66-3F56157348DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E019932-DB74-787A-2F66-3F56157348DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E019932-DB74-787A-2F66-3F56157348DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C530CC02-81D4-4674-A296-18402256AFC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C530CC02-81D4-4674-A296-18402256AFC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C530CC02-81D4-4674-A296-18402256AFC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C530CC02-81D4-4674-A296-18402256AFC7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +54,8 @@ Global
 		{9C6516A1-9669-4359-A402-98592781F88D} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{52375260-82A1-4078-AFD8-6319C35E35C5} = {9C6516A1-9669-4359-A402-98592781F88D}
 		{9E019932-DB74-787A-2F66-3F56157348DD} = {2E1FC650-626C-4943-9B9C-8F6A219BC093}
+		{54CE9376-D33C-4259-A62A-114BB8AC4A29} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{C530CC02-81D4-4674-A296-18402256AFC7} = {54CE9376-D33C-4259-A62A-114BB8AC4A29}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F8E223F9-9231-4D7B-AB34-03457C65778B}
