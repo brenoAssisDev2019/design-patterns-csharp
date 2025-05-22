@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AbstractFactory", "Abstract
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoAbstractFactory", "Creational\AbstractFactory\BancoAbstractFactory\BancoAbstractFactory.csproj", "{77B3CDF2-5719-49D0-A16B-9CAFD8176E0F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{2E1FC650-626C-4943-9B9C-8F6A219BC093}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReportBuilder", "Creational\ReportBuilder\ReportBuilder.csproj", "{CDBC33F0-019C-40D8-8EB3-661C89453288}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,10 @@ Global
 		{77B3CDF2-5719-49D0-A16B-9CAFD8176E0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77B3CDF2-5719-49D0-A16B-9CAFD8176E0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77B3CDF2-5719-49D0-A16B-9CAFD8176E0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDBC33F0-019C-40D8-8EB3-661C89453288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDBC33F0-019C-40D8-8EB3-661C89453288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDBC33F0-019C-40D8-8EB3-661C89453288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDBC33F0-019C-40D8-8EB3-661C89453288}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +34,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{B815A255-212C-402C-AB51-4260987FDDA5} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{77B3CDF2-5719-49D0-A16B-9CAFD8176E0F} = {B815A255-212C-402C-AB51-4260987FDDA5}
+		{2E1FC650-626C-4943-9B9C-8F6A219BC093} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{CDBC33F0-019C-40D8-8EB3-661C89453288} = {2E1FC650-626C-4943-9B9C-8F6A219BC093}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F8E223F9-9231-4D7B-AB34-03457C65778B}
