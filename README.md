@@ -57,7 +57,7 @@ Cada padrão possui uma implementação independente, com exemplos realistas que
 │   └── Visitor               # Representa uma operação a ser realizada em elementos de uma estrutura
 │
 └── README.md
-
+```
 ---
 
 ## Como Usar
@@ -67,11 +67,11 @@ Clone o repositório:
 ```bash
 git clone https://github.com/seu-usuario/design-patterns-csharp.git
 Entre na pasta do padrão que deseja estudar, por exemplo:
-
+```
 ```bash
 cd Creational/Singleton
 Abra a solução no Visual Studio, Rider ou VS Code e execute para ver o padrão em funcionamento.
-
+```
 ---
 
 ## Contribuição
