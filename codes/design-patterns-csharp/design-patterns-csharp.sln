@@ -31,6 +31,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{81D2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "Structural Design\Adapter\AdapterPattern\AdapterPattern.csproj", "{D9399B15-5A68-444E-9CEB-7F6B58B41DE8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Composite", "Composite", "{ED48E119-BF44-473C-A856-8C23CD395E4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositePattern", "Structural Design\Composite\CompositePattern\CompositePattern.csproj", "{2A671975-1E54-492B-AB15-8698C63F7D97}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +65,10 @@ Global
 		{D9399B15-5A68-444E-9CEB-7F6B58B41DE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D9399B15-5A68-444E-9CEB-7F6B58B41DE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D9399B15-5A68-444E-9CEB-7F6B58B41DE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A671975-1E54-492B-AB15-8698C63F7D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A671975-1E54-492B-AB15-8698C63F7D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A671975-1E54-492B-AB15-8698C63F7D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A671975-1E54-492B-AB15-8698C63F7D97}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +86,8 @@ Global
 		{1E514F6C-A51F-4E69-AC67-7D0CB47FE0CD} = {D4348FC1-0E59-4E65-AFFB-BE0306EECDF6}
 		{81D21298-0DE3-420E-907D-E6EADECB6932} = {B291A663-7F41-4373-844C-534791F12D94}
 		{D9399B15-5A68-444E-9CEB-7F6B58B41DE8} = {81D21298-0DE3-420E-907D-E6EADECB6932}
+		{ED48E119-BF44-473C-A856-8C23CD395E4C} = {B291A663-7F41-4373-844C-534791F12D94}
+		{2A671975-1E54-492B-AB15-8698C63F7D97} = {ED48E119-BF44-473C-A856-8C23CD395E4C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F8E223F9-9231-4D7B-AB34-03457C65778B}
